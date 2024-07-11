@@ -1,5 +1,5 @@
 <?php
-include 'config.php';
+include 'liga_bd.php';
 
 $sql = "SELECT * FROM Livro";
 $result = $conn->query($sql);
